@@ -1,4 +1,4 @@
-# 🍕 Pizzaria - Gerenciador de Pedidos (MVP)
+# Pizzaria - Gerenciador de Pedidos
 
 MVP acadêmico para a disciplina de Arquitetura de Software.
 
