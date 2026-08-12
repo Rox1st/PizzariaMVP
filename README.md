@@ -3,7 +3,7 @@
 MVP acadêmico para a disciplina de Arquitetura de Software.
 
 ## Stack
-- Python 3.11+
+- Python 3.12+
 - Flask
 - SQLite
 - HTML/CSS/JavaScript
@@ -21,6 +21,7 @@ MVC + camadas: Controller → Service → Repository → Database.
 - Criação de pedidos delivery ou retirada.
 - Cálculo automático de subtotal, taxa e total.
 - Alteração de status.
+- histórico de pedidos efetuados.
 - Registro de histórico de status.
 - Marcação de pagamento.
 - API REST e interface web.
