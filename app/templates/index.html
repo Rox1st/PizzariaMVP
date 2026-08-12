@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Pizzaria - Gerenciador de Pedidos</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+<header><h1>🍕 Gerenciador de Pedidos</h1><p>MVP da Pizzaria</p></header>
+<main>
+<section class="card"><h2>Novo pedido</h2>
+<form id="orderForm">
+<input id="customer_name" placeholder="Nome do cliente" required>
+<input id="phone" placeholder="Telefone" required>
+<select id="order_type"><option value="DELIVERY">Delivery</option><option value="PICKUP">Retirada no balcão</option></select>
+<input id="address" placeholder="Endereço (obrigatório no delivery)">
+<select id="payment_method"><option>PIX</option><option>Cartão</option><option>Dinheiro</option></select>
+<div id="products"></div><button type="submit">Criar pedido</button>
+</form></section>
+<section class="card"><h2>Pedidos</h2><button onclick="loadOrders()">Atualizar</button><div id="orders"></div></section>
+</main>
+<script src="/static/app.js"></script>
+</body></html>
